@@ -30,6 +30,13 @@ header{
     width: 1440px;
     height: 814px;
     background: #EFF0F3;
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 95px;
+
 }
 .browse {
 
@@ -120,4 +127,36 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 30px 0;
+}
+header img{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+.header-left form{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:#FFFFFE;
+}
+.header-left-input{
+    display: flex;
+}
+.header-left-input section{
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 145px;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    margin-left: 20px;
+
 }
