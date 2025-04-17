@@ -213,7 +213,7 @@ input[type="submit"]{
 .browse-cards{
     display: flex;
     flex-direction: row;
-    padding: 50px 95px 0 95px;
+    padding: 50px 95px 68px 95px;
     justify-content: space-between;
 
 }
