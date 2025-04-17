@@ -166,3 +166,22 @@ header img{
     justify-content: center;
     align-items: center;
 }
+input[type="email"]{
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+input[type="submit"]{
+    color:#FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #6246EA;
+    border: none;
+
+}
