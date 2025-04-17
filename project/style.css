@@ -20,9 +20,10 @@ nav{
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 0 95px;
 }
 
 header{
@@ -47,6 +48,23 @@ footer{
     display: flex;
     justify-content: start;
     align-items: end;
+    flex-direction: row;
+}
+.nav__right ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.nav__right ul img {
+    margin-right: 10px;
 }
 .dasteen{
     color: #001858;
