@@ -158,5 +158,11 @@ header img{
     border-radius: 8px;
     background: #6246EA;
     margin-left: 20px;
-
+}
+.header-right{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
 }
