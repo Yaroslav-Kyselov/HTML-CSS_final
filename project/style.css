@@ -131,7 +131,7 @@ footer{
 header img{
     display: flex;
     width: 470px;
-    padding: 12.874px 18.074px 10.757px 17.649px;
+    padding: 12px 18px 11px 18px;
 }
 .header-left label{
     display: flex;
@@ -159,7 +159,7 @@ header img{
 .header-right{
     display: flex;
     width: 470px;
-    padding: 12.874px 18.074px 10.757px 17.649px;
+    padding: 12px 18px 11px 18px;
     justify-content: center;
     align-items: center;
 }
