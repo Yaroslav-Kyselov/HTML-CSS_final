@@ -136,7 +136,7 @@ header img{
     justify-content: center;
     align-items: center;
 }
-.header-left form{
+.header-left label{
     display: flex;
     padding: 21px 200px 21px 25px;
     align-items: center;
