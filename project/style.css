@@ -39,7 +39,9 @@ header{
 
 }
 .browse {
-
+    width: 1440px;
+    height: 500px;
+    background: #EFF0F3;
 }
 main{
 
@@ -181,5 +183,44 @@ input[type="submit"]{
     text-transform: capitalize;
     background: #6246EA;
     border: none;
+
+}
+/*-----------------------browse---------------------------------*/
+.browse-top{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    padding: 2px 95px 3px 95px;
+    margin-top: 67px;
+}
+.browse-top-left{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse-top-right{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse-cards{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 95px 0 95px;
+    justify-content: space-between;
+
+}
+.card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
 
 }
