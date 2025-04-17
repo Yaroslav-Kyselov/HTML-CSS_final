@@ -132,8 +132,6 @@ header img{
     display: flex;
     width: 470px;
     padding: 12.874px 18.074px 10.757px 17.649px;
-    justify-content: center;
-    align-items: center;
 }
 .header-left label{
     display: flex;
