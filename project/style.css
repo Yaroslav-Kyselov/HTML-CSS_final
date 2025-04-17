@@ -50,6 +50,9 @@ footer{
     align-items: end;
     flex-direction: row;
 }
+.nav__right{
+    display: flex;
+}
 .nav__right ul{
     display: flex;
     justify-content: space-around;
@@ -81,4 +84,22 @@ footer{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.nav__right button{
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;border-radius: 4px;
+    background: #6246EA;
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.nav__right button {
+    margin-left: 50px;
+    width: 213px;
+    height: 44px;
 }
