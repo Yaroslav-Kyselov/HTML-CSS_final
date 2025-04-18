@@ -357,7 +357,8 @@ main button{
     margin: 20px 0 20px 0;
 }
 .subscribe-top-top{
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50%;
+    border: 15px solid #FFFFFE;
     background:#FFFFFE;
 }
 .subscribe h2{
@@ -377,6 +378,7 @@ main button{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 10px;
 }
 .subscribe-bottom{
     display: flex;
