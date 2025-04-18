@@ -323,10 +323,13 @@ input[type="submit"]{
     display: flex;
     flex-direction: column;
 }
-main button{
+.button-main{
+    height: 224px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main button{
     width: 165px;
     height: 64px;
     color: #FFFFFE;
