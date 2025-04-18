@@ -225,10 +225,14 @@ input[type="submit"]{
     background: #FFFFFE;
     padding: 65px 130px 0 30px;
 }
-.card img{
+.card div:nth-child(1){
+    width: 60px;
+    height: 60px;
     border-radius: 8px;
-    background:#FFFFFE;
-    margin: 0 0 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px 10px;
 }
 .card p{
     width: 100px;
@@ -240,4 +244,18 @@ input[type="submit"]{
     text-transform: capitalize;
     justify-items: flex-end;
   }
-
+.browse-cards :nth-child(3){
+    background: #6246EA;
+  }
+.browse-cards div:nth-child(3) div:nth-child(1){
+    background: white;
+}
+.browse-cards div:nth-child(3) div:nth-child(2) p{
+        background: #6246EA;
+        color:#FFFFFE;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+}
