@@ -289,7 +289,7 @@ input[type="submit"]{
     /*align-items: center;*/
     border-radius: 12px;
     background: #FFFFFE;
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 .card-article div:nth-child(1) p{
     color:#2B2C34;
