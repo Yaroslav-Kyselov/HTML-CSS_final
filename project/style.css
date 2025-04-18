@@ -43,7 +43,10 @@ header{
     background: #EFF0F3;
 }
 main{
-
+    width: 1440px;
+    height: 2504px;
+    background: #FFFFFE;
+    padding: 0 95px;
 }
 .subscribe{
 
