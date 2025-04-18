@@ -409,6 +409,14 @@ main button{
     margin-left: 20px;
 }
 /*------------------------footer---------------------------------------*/
+.footer-wrapper{}
 
+.footer-left{
+
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+}
 
 
