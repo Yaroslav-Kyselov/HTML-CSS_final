@@ -58,7 +58,12 @@ main{
     align-items: center;
 }
 footer{
-
+    width: 1440px;
+    height: 453px;
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*------------------nav-------------------------------*/
 .nav__left{
