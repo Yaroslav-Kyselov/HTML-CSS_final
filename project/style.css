@@ -59,10 +59,10 @@ main{
 }
 footer{
     width: 1440px;
-    height: 453px;
+    height: 435px;
     background: #E4E5E9;
     display: flex;
-    padding: 70px 95px 0 95px;
+    padding: 0 95px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -412,22 +412,18 @@ main button{
     margin-left: 20px;
 }
 /*------------------------footer---------------------------------------*/
-/*.footer-wrapper{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
 
-/*}*/
 .footer-wrapper-top{
     display: flex;
     width: 1252px;
-    height: 435px;
+    /*height: 435px;*/
     border: 1px solid #FFFFFE;
     justify-content: space-between;
-   }
+}
 .footer-left{
     border: 1px solid #FFFFFE;
     width: 284px;
-    height: 435px;
+    height: 245px;
 }
 .social ul{
     display: flex;
@@ -437,7 +433,7 @@ main button{
 .footer-right{
     display: flex;
     width: 805px;
-    height: 435px;
+    height: 245px;
     gap: 95px;
     justify-content: flex-end;
 }
