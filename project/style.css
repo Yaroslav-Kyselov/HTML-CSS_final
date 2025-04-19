@@ -423,7 +423,12 @@ main button{
     width: 284px;
     height: 245px;
 }
-
+.footer-left div:nth-child(1){
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: row;
+}
 .digital{
     width: 284px;
     color: #2B2C34;
