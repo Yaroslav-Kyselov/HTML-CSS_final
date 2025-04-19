@@ -65,7 +65,7 @@ footer{
     padding: 0 95px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
 }
 /*------------------nav-------------------------------*/
 .nav__left{
