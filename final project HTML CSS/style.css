@@ -467,3 +467,6 @@ main button{
     line-height: normal;
     margin: 10px 0 10px 0;
 }
+.footer-wrapper-bottom{
+align-content: end;
+}
