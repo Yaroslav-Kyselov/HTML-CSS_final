@@ -467,6 +467,7 @@ main button{
     line-height: normal;
     margin: 10px 0 10px 0;
 }
-.footer-wrapper-bottom{
-align-content: end;
+.footer-wrapper-bottom {
+    border: 1px solid #2B2C34;
+  align-self: center;
 }
