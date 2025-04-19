@@ -65,7 +65,6 @@ footer{
     padding: 0 95px;
     justify-content: center;
     align-items: center;
-    /*flex-direction: column;*/
 }
 /*------------------nav-------------------------------*/
 .nav__left{
@@ -411,7 +410,10 @@ main button{
     margin-left: 20px;
 }
 /*------------------------footer---------------------------------------*/
-
+/*.footer-wrapper{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
 .footer-wrapper-top{
     display: flex;
     width: 1252px;
@@ -467,7 +469,9 @@ main button{
     line-height: normal;
     margin: 10px 0 10px 0;
 }
-.footer-wrapper-bottom {
-    border: 1px solid #2B2C34;
-  align-self: center;
-}
+/*.footer-wrapper-bottom p{*/
+/*    display: block;*/
+/*    align-items: end;*/
+/*    height: 100px;*/
+/*    border: 1px solid #2B2C34;*/
+/*}*/
