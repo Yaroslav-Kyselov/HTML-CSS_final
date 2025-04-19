@@ -62,8 +62,10 @@ footer{
     height: 453px;
     background: #E4E5E9;
     display: flex;
+    padding: 70px 95px 0 95px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 /*------------------nav-------------------------------*/
 .nav__left{
@@ -113,7 +115,8 @@ footer{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: capitalize;border-radius: 4px;
+    text-transform: capitalize;
+    border-radius: 4px;
     background: #6246EA;
     display: flex;
     padding: 10px 17px;
@@ -409,14 +412,49 @@ main button{
     margin-left: 20px;
 }
 /*------------------------footer---------------------------------------*/
-.footer-wrapper{}
+/*.footer-wrapper{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
 
+/*}*/
+.footer-wrapper-top{
+    display: flex;
+    width: 1252px;
+    height: 435px;
+    border: 1px solid #FFFFFE;
+    justify-content: space-between;
+   }
 .footer-left{
-
+    border: 1px solid #FFFFFE;
+    width: 284px;
+    height: 435px;
 }
 .social ul{
     display: flex;
     flex-direction: row;
+    /*gap: 95px;*/
 }
-
-
+.footer-right{
+    display: flex;
+    width: 805px;
+    height: 435px;
+    gap: 95px;
+    justify-content: flex-end;
+}
+.footer-right h2{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.footer-right p{
+    color:#2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 0 10px 0;
+}
