@@ -417,18 +417,27 @@ main button{
     display: flex;
     width: 1252px;
     /*height: 435px;*/
-    border: 1px solid #FFFFFE;
     justify-content: space-between;
 }
 .footer-left{
-    border: 1px solid #FFFFFE;
     width: 284px;
     height: 245px;
+}
+
+.digital{
+    width: 284px;
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0;
 }
 .social ul{
     display: flex;
     flex-direction: row;
-    /*gap: 95px;*/
+    gap: 20px;
+    align-items: center;
 }
 .footer-right{
     display: flex;
